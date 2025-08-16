@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getaway Plans - Picnic Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/logo.png" alt="Family Picnic Games Logo" style="height: 50px; width: auto; margin-right: 10px;">
+            <span style="font-weight: 600; font-size: 18px; color: white;">Family Picnic Games</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="indoor.html">Indoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="outdoor.html">Outdoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="itinerary.html">Getaway Plans</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container py-5 mt-5">
+        <h1 class="text-center mb-5">Picnic Getaway Plans</h1>
+        
+        <div class="row">
+            <!-- Plan 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=8654" class="card-img-top" alt="Beach day">
+                    <div class="card-body">
+                        <h3 class="card-title">Beach Day Adventure</h3>
+                        <p class="card-text">Full day itinerary for beach fun</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#beachModal">
+                            View Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=3910" class="card-img-top" alt="Park picnic">
+                    <div class="card-body">
+                        <h3 class="card-title">Park Picnic Day</h3>
+                        <p class="card-text">Complete park activities plan</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#parkModal">
+                            View Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=9221" class="card-img-top" alt="Camping weekend">
+                    <div class="card-body">
+                        <h3 class="card-title">Camping Weekend</h3>
+                        <p class="card-text">2-day camping itinerary</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#campingModal">
+                            View Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plan Modals -->
+    <!-- Beach Day Modal -->
+    <div class="modal fade" id="beachModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Beach Day Itinerary</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=8654" class="img-fluid mb-3" alt="Beach day">
+                    <h4>Full Day Schedule:</h4>
+                    <table class="table">
+                        <tr><th>Time</th><th>Activity</th></tr>
+                        <tr><td>9:00 AM</td><td>Arrival & setup</td></tr>
+                        <tr><td>10:00 AM</td><td>Beach volleyball</td></tr>
+                        <tr><td>12:00 PM</td><td>BBQ lunch</td></tr>
+                        <tr><td>2:00 PM</td><td>Sandcastle competition</td></tr>
+                        <tr><td>4:00 PM</td><td>Water games</td></tr>
+                        <tr><td>6:00 PM</td><td>Sunset photos</td></tr>
+                    </table>
+                    <h4>What to Bring:</h4>
+                    <ul>
+                        <li>Sunscreen</li>
+                        <li>Beach umbrella</li>
+                        <li>Towels</li>
+                        <li>Cooler with drinks</li>
+                        <li>Beach chairs</li>
+                        <li>Snacks</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary">Download Plan</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Park Picnic Modal -->
+    <div class="modal fade" id="parkModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Park Picnic Day Itinerary</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=3910" class="img-fluid mb-3" alt="Park picnic">
+                    <h4>Full Day Schedule:</h4>
+                    <table class="table">
+                        <tr><th>Time</th><th>Activity</th></tr>
+                        <tr><td>10:00 AM</td><td>Arrival & picnic setup</td></tr>
+                        <tr><td>11:00 AM</td><td>Frisbee golf tournament</td></tr>
+                        <tr><td>12:30 PM</td><td>Picnic lunch</td></tr>
+                        <tr><td>2:00 PM</td><td>Scavenger hunt</td></tr>
+                        <tr><td>4:00 PM</td><td>Relaxing games (cards, board games)</td></tr>
+                        <tr><td>6:00 PM</td><td>Departure</td></tr>
+                    </table>
+                    <h4>What to Bring:</h4>
+                    <ul>
+                        <li>Picnic blanket</li>
+                        <li>Portable chairs</li>
+                        <li>Cooler with food/drinks</li>
+                        <li>Sun protection</li>
+                        <li>Games equipment</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary">Download Plan</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Camping Weekend Modal -->
+    <div class="modal fade" id="campingModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Camping Weekend Itinerary</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&w=1200&q=80&sig=9221" class="img-fluid mb-3" alt="Camping weekend">
+                    <h4>Day 1 Schedule:</h4>
+                    <table class="table">
+                        <tr><th>Time</th><th>Activity</th></tr>
+                        <tr><td>10:00 AM</td><td>Arrival & campsite setup</td></tr>
+                        <tr><td>12:00 PM</td><td>Lunch</td></tr>
+                        <tr><td>2:00 PM</td><td>Nature hike</td></tr>
+                        <tr><td>5:00 PM</td><td>Campfire setup</td></tr>
+                        <tr><td>7:00 PM</td><td>Dinner & campfire stories</td></tr>
+                    </table>
+                    <h4>Day 2 Schedule:</h4>
+                    <table class="table">
+                        <tr><th>Time</th><th>Activity</th></tr>
+                        <tr><td>8:00 AM</td><td>Breakfast</td></tr>
+                        <tr><td>10:00 AM</td><td>Fishing or boating</td></tr>
+                        <tr><td>12:00 PM</td><td>Lunch</td></tr>
+                        <tr><td>2:00 PM</td><td>Outdoor games tournament</td></tr>
+                        <tr><td>4:00 PM</td><td>Pack up & departure</td></tr>
+                    </table>
+                    <h4>What to Bring:</h4>
+                    <ul>
+                        <li>Tent & sleeping bags</li>
+                        <li>Cooking equipment</li>
+                        <li>Flashlights</li>
+                        <li>First aid kit</li>
+                        <li>Outdoor games</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary">Download Plan</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-white">Terms of Service</a></li>
+                        <li><a href="sitemap.html" class="text-white">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>www.dev-baba.com<br>+92 344 1129367 </p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <p class="mb-0 text-center">&copy; 2025 Picnic Games. Des | Dev by BaBa</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

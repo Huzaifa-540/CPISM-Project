@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Picnic Games</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="icon" type="image/png" href="assets/images/Logo.png">
+  
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/logo.png" alt="Family Picnic Games Logo" style="height: 50px; width: auto; margin-right: 10px;">
+            <span style="font-weight: 600; font-size: 18px; color: white;">Family Picnic Games</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="indoor.html">Indoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="outdoor.html">Outdoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="itinerary.html">Getaway Plans</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  
+  <div class="container py-6 mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="text-center mb-4">Contact Us</h2>
+
+        <form class="needs-validation" novalidate>
+          
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name *</label>
+            <input type="text" class="form-control" id="name" name="name"
+              pattern="^[A-Za-z\s]{3,}$" required inputmode="text">
+            <div class="invalid-feedback">Only letters and spaces allowed (min 3 characters).</div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label for="email" class="form-label">Email *</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone *</label>
+            <input type="tel" class="form-control" id="phone" name="phone"
+              pattern="^\d{10}$" required inputmode="numeric"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+            <div class="invalid-feedback">Please enter exactly 10 digits.</div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label for="message" class="form-label">Message *</label>
+            <textarea class="form-control" id="message" name="message"
+              required minlength="10"></textarea>
+            <div class="invalid-feedback">Please write at least 10 characters.</div>
+          </div>
+
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+          </div>
+        </form>
+
+        
+        <div class="text-center mt-4">
+          <a href="files/rules.docx" download class="btn btn-outline-primary">Download Rules</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container my-5">
+    <h2 class="mb-3 text-center">Find Us</h2>
+    <div class="ratio ratio-16x9 rounded overflow-hidden shadow">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28961.445522706952!2d67.2047632453472!3d24.8576775775453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb330c0490e9f33%3A0x45a3872e23b47123!2sQuaidabad%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1755344755894!5m2!1sen!2s" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  
+  <footer class="bg-primary text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white">Terms of Service</a></li>
+            <li><a href="sitemap.html" class="text-white">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Contact Us</h5>
+          <p>www.dev-baba.com<br>+92 344 1129367</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <hr class="my-4 bg-light" />
+      <p class="mb-0 text-center">&copy; 2025 Picnic Games. Des | Dev by BaBa</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script>
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+  </script>
+
+</body>
+</html>
